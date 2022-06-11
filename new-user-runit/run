@@ -1,0 +1,12 @@
+#!/bin/sh
+
+USER=tamer
+HOME="/home/${USER}"
+
+groups="$(id -Gn "$USER" | tr ' ' ':')"
+svdir="$HOME/service"
+
+
+if [ -d $svdir ]; then
+exec chpst -u "$USER:$groups" runsvdir "$svdir"
+fi

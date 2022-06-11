@@ -1,0 +1,4 @@
+######-------- README ------########
+edit user name in "run"
+then execute like this:
+chmod +x newUser.sh; export USERNAME=tamer; ./newUser.sh

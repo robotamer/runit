@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export HOME=/home/tamer
+exec 2>&1
+exec /srv/syncthing/syncthing
