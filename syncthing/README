@@ -1,6 +1,7 @@
 
 
 execute like this:
-chmod +x newUser.sh; export USERNAME=tamer; ./newUser.sh
+chmod +x newUser.sh; export USERNAME=sathosy; ./newUser.sh
 
+check if service is running
 sv status ~/service/*
